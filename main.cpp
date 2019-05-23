@@ -9,12 +9,7 @@ using namespace std;
 
 
 int main() {
-    
-    //#ifdef __APPLE__
-    //    freopen("/Users/shadae/Desktop/GERMAN/LangaugeLearning/LangaugeLearning/vocab1.txt", "r", stdin);
-    //    // freopen("/Users/shadae/Desktop/EECS281P2/EECS281P2/example.txt", "w", stdout);
-    //#endif
-    
+
     
     
     int  wordcount, countwrong, nopoints;
@@ -35,19 +30,15 @@ int main() {
     numRight = 0;
     totalhalfpoints = 0;
     
-    // while (ifs.good()) {
+  
     while( getline(ifs, vocabword)){
-        //  while (cin>>vocabword){
-        
-        //  getline(ifs, vocabword);
+
         cout << vocabword << endl;
         wordcount++;
         
-        
-//        cin>>translation;
+
         getline(cin, translation);
-        //                cin>>vocabword2;
-        //        getline(cin, translation);
+
         getline(ifs, vocabword2);
         
         
@@ -96,7 +87,7 @@ int main() {
         
         totalhalfpoints=totalhalfpoints+ halfptsvector[i];
     }
-    // ifs.close();
+
     total = (numRight + totalhalfpoints)-nopoints;
     cout << "Score is " << total<<" / "<<wordcount<<endl<<endl;
     
