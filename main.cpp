@@ -19,7 +19,7 @@ int main() {
     string vocabword, vocabword2, translation;
     
     ifstream ifs;
-    ifs.open("vocab1.txt");
+    ifs.open("germanvocab1.txt");
     
     
     countwrong = 0;
