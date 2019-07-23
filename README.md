@@ -13,7 +13,7 @@ After the user has attempted all the words in the file, a score is outputted alo
 
 Updated Version -----------------------------------------------------------------------------------------------------
 
-In the updated version, the user has the ability to play against Angela Merkel (computer) and request (type "hint") and receive hints. The user can only request ONE hint per game.
+In the updated version, the user has the ability to play against Angela Merkel (computer) and request (type "hint") and receive hints. The user can only request ONE hint per game and hints must be requested on the first and second attempts only.
 
 
 TO RUN IN TERMINAL:
