@@ -10,8 +10,11 @@ The user may also pass if he/she doesn't want to guess. This will result in a fu
 
 After the user has attempted all the words in the file, a score is outputted along with the vocab words the user may want to review.
 
+
+Updated Version ------------------------------------------------------------------
+In the updated version, the user has the ability to play again Angela Merkel (computer) and request and receive hints. The user can only request a hint ONE time per game.
+
 TO RUN IN TERMINAL:
 
 g++ main.cpp -std=c++11 -o main
-
 ./main
