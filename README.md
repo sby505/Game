@@ -1,5 +1,8 @@
 # Game
 
+Older Version (uses vocab1.txt) ------------------------------------------------------------------------------------
+
+
 I created a simple language learning game in C++ to help me learn German vocabulary quickly. 
 
 The game will output the English word and prompt the user for the German translation.
