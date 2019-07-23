@@ -14,8 +14,8 @@ int main() {
     
     int  wordcount, countwrong, nopoints;
     double halfpts, total, numRight, totalhalfpoints;
-    vector < double>halfptsvector;
-    vector <string>wordstoreview;
+    vector <double> halfptsvector;
+    vector <string> wordstoreview;
     string vocabword, vocabword2, translation;
     
     ifstream ifs;
@@ -43,12 +43,12 @@ int main() {
         
         
         
-        if (translation==vocabword2) {
+        if (translation == vocabword2) {
             cout << "Yay!!!" << endl;
             numRight++;
             
         }
-        else if(translation=="Pass" || translation=="pass"){
+        else if(translation == "Pass" || translation == "pass"){
             wordstoreview.push_back(vocabword);
             wordstoreview.push_back(vocabword2);
             nopoints++;
@@ -85,19 +85,19 @@ int main() {
     }
     for (int i = 0; i < halfptsvector.size(); i++) {
         
-        totalhalfpoints=totalhalfpoints+ halfptsvector[i];
+        totalhalfpoints = totalhalfpoints + halfptsvector[i];
     }
     
-    total = (numRight + totalhalfpoints)-nopoints;
-    cout << "Score is " << total<<" / "<<wordcount<<endl<<endl;
+    total = (numRight + totalhalfpoints) - nopoints;
+    cout << "Score is " << total<<" / " << wordcount << endl << endl;
     
-    cout << "WORK ON: " << endl<<endl;
+    cout << "WORK ON: " << endl << endl;
     
     
     for (int i = 0; i < wordstoreview.size(); i=i+2) {
         cout << wordstoreview[i] << " - ";
         for (int j = i + 1; j <= i+1 ; j++) {
-            cout<<wordstoreview[j] << endl;
+            cout << wordstoreview[j] << endl;
         }
         
         
