@@ -89,7 +89,7 @@ int main() {
     }
     
     total = (numRight + totalhalfpoints) - nopoints;
-    cout << "Score is " << total<<" / " << wordcount << endl << endl;
+    cout << "Score is " << total <<" / " << wordcount << endl << endl;
     
     cout << "WORK ON: " << endl << endl;
     
