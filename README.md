@@ -11,5 +11,7 @@ The user may also pass if he/she doesn't want to guess. This will result in a fu
 After the user has attempted all the words in the file, a score is outputted along with the vocab words the user may want to review.
 
 TO RUN IN TERMINAL:
+
 g++ main.cpp -std=c++11 -o main
+
 ./main
